@@ -1,1 +1,1 @@
-# Abstract a component with the @apply directive in tailwind
+### Abstract a component with the @apply directive in tailwind
