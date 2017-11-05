@@ -568,47 +568,6 @@ button,
   cursor: pointer;
 }
 
-.button {
-  background-color: #9561e2;
-  color: #ffffff;
-  font-weight: 700;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-radius: .25rem;
-  margin-right: 0.25rem;
-  margin-bottom: 0.5rem;
-}
-
-.button:hover {
-  background-color: #794acf;
-}
-
-.button--pink {
-  background-color: #f66d9b;
-}
-
-.button--pink:hover {
-  background-color: #eb5286;
-}
-
-.button--teal {
-  background-color: #4dc0b5;
-}
-
-.button--teal:hover {
-  background-color: #38a89d;
-}
-
-.button--pill {
-  border-radius: 9999px;
-}
-
-.button--square {
-  border-radius: 0;
-}
-
 .container {
   width: 100%;
 }
@@ -2763,6 +2722,36 @@ button,
 
 .p-8 {
   padding: 2rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pl-16 {
+  padding-left: 4rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.p-16 {
+  padding: 4rem;
 }
 
 .pt-px {
@@ -5774,6 +5763,36 @@ button,
 
   .sm\:p-8 {
     padding: 2rem;
+  }
+
+  .sm\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .sm\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .sm\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .sm\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .sm\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .sm\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .sm\:p-16 {
+    padding: 4rem;
   }
 
   .sm\:pt-px {
@@ -8788,6 +8807,36 @@ button,
     padding: 2rem;
   }
 
+  .md\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .md\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .md\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .md\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .md\:p-16 {
+    padding: 4rem;
+  }
+
   .md\:pt-px {
     padding-top: 1px;
   }
@@ -11800,6 +11849,36 @@ button,
     padding: 2rem;
   }
 
+  .lg\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .lg\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .lg\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .lg\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .lg\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .lg\:p-16 {
+    padding: 4rem;
+  }
+
   .lg\:pt-px {
     padding-top: 1px;
   }
@@ -14810,6 +14889,36 @@ button,
 
   .xl\:p-8 {
     padding: 2rem;
+  }
+
+  .xl\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .xl\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .xl\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .xl\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .xl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .xl\:p-16 {
+    padding: 4rem;
   }
 
   .xl\:pt-px {
