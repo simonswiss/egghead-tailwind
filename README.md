@@ -1,1 +1,1 @@
-# Abstract a component with the @apply directive in tailwind
+### Compile tailwind's config file with gulp
