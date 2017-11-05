@@ -568,47 +568,6 @@ button,
   cursor: pointer;
 }
 
-.button {
-  background-color: #9561e2;
-  color: #ffffff;
-  font-weight: 700;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-radius: .25rem;
-  margin-right: 0.25rem;
-  margin-bottom: 0.5rem;
-}
-
-.button:hover {
-  background-color: #794acf;
-}
-
-.button--pink {
-  background-color: #f66d9b;
-}
-
-.button--pink:hover {
-  background-color: #eb5286;
-}
-
-.button--teal {
-  background-color: #4dc0b5;
-}
-
-.button--teal:hover {
-  background-color: #38a89d;
-}
-
-.button--pill {
-  border-radius: 9999px;
-}
-
-.button--square {
-  border-radius: 0;
-}
-
 .container {
   width: 100%;
 }

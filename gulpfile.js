@@ -15,6 +15,7 @@ gulp.task("css", () => {
     .pipe(gulp.dest(PATHS.dist));
 });
 
-gulp.task("default", ["css"], () => {
-  gulp.watch(PATHS.css, ["css"]);
-});
+/* not used in this lesson - but leaving here as it is pretty handy */
+// gulp.task("default", ["css"], () => {
+//   gulp.watch(PATHS.css, ["css"]);
+// });
