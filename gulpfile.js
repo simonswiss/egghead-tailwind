@@ -4,7 +4,7 @@ const tailwindcss = require("tailwindcss");
 
 const PATHS = {
   css: "./src/styles.css",
-  confing: "./tailwind.js",
+  config: "./tailwind.js",
   dist: "./"
 };
 
