@@ -2784,6 +2784,36 @@ button,
   padding: 1px;
 }
 
+.pt-crazy {
+  padding-top: 8rem;
+}
+
+.pr-crazy {
+  padding-right: 8rem;
+}
+
+.pb-crazy {
+  padding-bottom: 8rem;
+}
+
+.pl-crazy {
+  padding-left: 8rem;
+}
+
+.px-crazy {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.py-crazy {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.p-crazy {
+  padding: 8rem;
+}
+
 .mt-0 {
   margin-top: 0;
 }
@@ -5823,6 +5853,36 @@ button,
 
   .sm\:p-px {
     padding: 1px;
+  }
+
+  .sm\:pt-crazy {
+    padding-top: 8rem;
+  }
+
+  .sm\:pr-crazy {
+    padding-right: 8rem;
+  }
+
+  .sm\:pb-crazy {
+    padding-bottom: 8rem;
+  }
+
+  .sm\:pl-crazy {
+    padding-left: 8rem;
+  }
+
+  .sm\:px-crazy {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .sm\:py-crazy {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .sm\:p-crazy {
+    padding: 8rem;
   }
 
   .sm\:mt-0 {
@@ -8867,6 +8927,36 @@ button,
     padding: 1px;
   }
 
+  .md\:pt-crazy {
+    padding-top: 8rem;
+  }
+
+  .md\:pr-crazy {
+    padding-right: 8rem;
+  }
+
+  .md\:pb-crazy {
+    padding-bottom: 8rem;
+  }
+
+  .md\:pl-crazy {
+    padding-left: 8rem;
+  }
+
+  .md\:px-crazy {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .md\:py-crazy {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .md\:p-crazy {
+    padding: 8rem;
+  }
+
   .md\:mt-0 {
     margin-top: 0;
   }
@@ -11909,6 +11999,36 @@ button,
     padding: 1px;
   }
 
+  .lg\:pt-crazy {
+    padding-top: 8rem;
+  }
+
+  .lg\:pr-crazy {
+    padding-right: 8rem;
+  }
+
+  .lg\:pb-crazy {
+    padding-bottom: 8rem;
+  }
+
+  .lg\:pl-crazy {
+    padding-left: 8rem;
+  }
+
+  .lg\:px-crazy {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .lg\:py-crazy {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .lg\:p-crazy {
+    padding: 8rem;
+  }
+
   .lg\:mt-0 {
     margin-top: 0;
   }
@@ -14949,6 +15069,36 @@ button,
 
   .xl\:p-px {
     padding: 1px;
+  }
+
+  .xl\:pt-crazy {
+    padding-top: 8rem;
+  }
+
+  .xl\:pr-crazy {
+    padding-right: 8rem;
+  }
+
+  .xl\:pb-crazy {
+    padding-bottom: 8rem;
+  }
+
+  .xl\:pl-crazy {
+    padding-left: 8rem;
+  }
+
+  .xl\:px-crazy {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .xl\:py-crazy {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .xl\:p-crazy {
+    padding: 8rem;
   }
 
   .xl\:mt-0 {

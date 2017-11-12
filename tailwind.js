@@ -595,6 +595,7 @@ module.exports = {
   |
   */
 
+  // .p{side?}-{size}
   padding: {
     px: "1px",
     "0": "0",
@@ -604,7 +605,8 @@ module.exports = {
     "4": "1rem",
     "6": "1.5rem",
     "8": "2rem",
-    "16": "4rem"
+    "16": "4rem",
+    crazy: "8rem"
   },
 
   /*
