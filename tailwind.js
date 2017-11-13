@@ -172,6 +172,10 @@ module.exports = {
     skip: [{ min: "500px", max: "700px" }, { min: "900px" }]
   },
 
+  // white text at `sm` breakpoint and up
+  // .sm:text-white
+  // .md:text-blue
+
   /*
   |-----------------------------------------------------------------------------
   | Fonts                                    https://tailwindcss.com/docs/fonts
