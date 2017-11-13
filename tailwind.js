@@ -167,7 +167,9 @@ module.exports = {
     sm: "576px",
     md: "768px",
     lg: "992px",
-    xl: "1200px"
+    xl: "1200px",
+    range: { min: "500px", max: "700px" },
+    skip: [{ min: "500px", max: "700px" }, { min: "900px" }]
   },
 
   /*
