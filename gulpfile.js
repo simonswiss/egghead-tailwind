@@ -21,7 +21,7 @@ gulp.task("serve", function() {
     server: "./",
     notify: false
   });
-  gulp.watch(PATHS.css, ["css"]);
+  gulp.watch([PATHS.css, PATHS.config], ["css"]);
   gulp.watch(PATHS.dist + "*.html").on("change", browserSync.reload);
 });
 
