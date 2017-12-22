@@ -840,8 +840,8 @@ module.exports = {
   */
 
   options: {
-    prefix: "",
+    prefix: "lego-",
     important: false,
-    separator: ":"
+    separator: "__"
   }
 };
