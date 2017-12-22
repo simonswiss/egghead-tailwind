@@ -841,7 +841,7 @@ module.exports = {
 
   options: {
     prefix: "",
-    important: false,
+    important: true,
     separator: ":"
   }
 };
