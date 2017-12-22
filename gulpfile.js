@@ -1,6 +1,7 @@
 const gulp = require("gulp");
 const postcss = require("gulp-postcss");
 const tailwindcss = require("tailwindcss");
+const browserSync = require("browser-sync").create();
 
 const PATHS = {
   css: "./src/styles.css",
@@ -15,6 +16,13 @@ gulp.task("css", () => {
     .pipe(gulp.dest(PATHS.dist));
 });
 
-gulp.task("default", ["css"], () => {
+gulp.task("serve", function() {
+  browserSync.init({
+    server: "./",
+    notify: false
+  });
   gulp.watch(PATHS.css, ["css"]);
+  gulp.watch(PATHS.dist + "*.html").on("change", browserSync.reload);
 });
+
+gulp.task("default", ["serve"]);
