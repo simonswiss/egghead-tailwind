@@ -16,12 +16,12 @@ gulp.task("css", () => {
     .pipe(gulp.dest(PATHS.dist));
 });
 
-gulp.task("serve", function() {
+gulp.task("serve", ["css"], function() {
   browserSync.init({
     server: "./",
     notify: false
   });
-  gulp.watch(PATHS.css, ["css"]);
+  gulp.watch([PATHS.css, PATHS.config], ["css"]);
   gulp.watch(PATHS.dist + "*.html").on("change", browserSync.reload);
 });
 
