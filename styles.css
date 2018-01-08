@@ -1,3 +1,8 @@
+h2.hero-headline {
+  color: tomato;
+  font-weight: 900;
+}
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -540,6 +545,7 @@ ul {
  *
  * We can remove this when the reversion is in a normal Chrome release.
  */
+
 button,
 [type="button"],
 [type="reset"],
@@ -4562,11 +4568,6 @@ button,
 
 .z-auto {
   z-index: auto !important;
-}
-
-h2.hero-headline {
-  color: tomato;
-  font-weight: 900;
 }
 
 @media (min-width: 576px) {

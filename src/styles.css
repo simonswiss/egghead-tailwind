@@ -1,7 +1,7 @@
-@tailwind preflight;
-@tailwind utilities;
-
 h2.hero-headline {
   color: tomato;
   font-weight: 900;
 }
+
+@tailwind preflight;
+@tailwind utilities;
