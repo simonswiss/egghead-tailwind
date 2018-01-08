@@ -11,21 +11,25 @@ const PATHS = {
 };
 
 gulp.task("css", () => {
-  return gulp
-    .src(PATHS.css)
-    .pipe(postcss([tailwindcss(PATHS.config), require("autoprefixer")]))
-    .pipe(
-      purgecss({
-        content: [PATHS.dist + "*.html"]
-      })
-    )
-    .pipe(gulp.dest(PATHS.dist));
+  return (
+    gulp
+      .src(PATHS.css)
+      .pipe(postcss([tailwindcss(PATHS.config), require("autoprefixer")]))
+      // remove unused styles
+      .pipe(
+        purgecss({
+          content: [PATHS.dist + "*.html"]
+        })
+      )
+      .pipe(gulp.dest(PATHS.dist))
+  );
 });
 
 gulp.task("serve", ["css"], function() {
   browserSync.init({
     server: "./",
-    notify: false
+    notify: false,
+    open: false
   });
   gulp.watch([PATHS.css, PATHS.config], ["css"]);
   gulp.watch(PATHS.dist + "*.html").on("change", browserSync.reload);
