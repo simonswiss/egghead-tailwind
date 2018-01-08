@@ -4566,42 +4566,22 @@ button,
 
 .bg-gradient-blue {
   background-color: #21d4fd;
-  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  background-image: linear-gradient(19deg, #b721ff 0%, #21d4fd 100%);
 }
 
 .bg-gradient-orange {
   background-color: #ffe53b;
-  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-}
-
-.focus\:bg-gradient-blue:focus {
-  background-color: #21d4fd;
-  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-}
-
-.focus\:bg-gradient-orange:focus {
-  background-color: #ffe53b;
-  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  background-image: linear-gradient(147deg, #ff2525 0%, #ffe53b 74%);
 }
 
 .hover\:bg-gradient-blue:hover {
   background-color: #21d4fd;
-  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  background-image: linear-gradient(19deg, #b721ff 0%, #21d4fd 100%);
 }
 
 .hover\:bg-gradient-orange:hover {
   background-color: #ffe53b;
-  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-}
-
-.group:hover .group-hover\:bg-gradient-blue {
-  background-color: #21d4fd;
-  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-}
-
-.group:hover .group-hover\:bg-gradient-orange {
-  background-color: #ffe53b;
-  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  background-image: linear-gradient(147deg, #ff2525 0%, #ffe53b 74%);
 }
 
 @media (min-width: 576px) {
@@ -8549,42 +8529,22 @@ button,
 
   .sm\:bg-gradient-blue {
     background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+    background-image: linear-gradient(19deg, #b721ff 0%, #21d4fd 100%);
   }
 
   .sm\:bg-gradient-orange {
     background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-  }
-
-  .sm\:focus\:bg-gradient-blue:focus {
-    background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-  }
-
-  .sm\:focus\:bg-gradient-orange:focus {
-    background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+    background-image: linear-gradient(147deg, #ff2525 0%, #ffe53b 74%);
   }
 
   .sm\:hover\:bg-gradient-blue:hover {
     background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+    background-image: linear-gradient(19deg, #b721ff 0%, #21d4fd 100%);
   }
 
   .sm\:hover\:bg-gradient-orange:hover {
     background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-  }
-
-  .sm\:group:hover .group-hover\:bg-gradient-blue {
-    background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-  }
-
-  .sm\:group:hover .group-hover\:bg-gradient-orange {
-    background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+    background-image: linear-gradient(147deg, #ff2525 0%, #ffe53b 74%);
   }
 }
 
@@ -12533,42 +12493,22 @@ button,
 
   .md\:bg-gradient-blue {
     background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+    background-image: linear-gradient(19deg, #b721ff 0%, #21d4fd 100%);
   }
 
   .md\:bg-gradient-orange {
     background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-  }
-
-  .md\:focus\:bg-gradient-blue:focus {
-    background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-  }
-
-  .md\:focus\:bg-gradient-orange:focus {
-    background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+    background-image: linear-gradient(147deg, #ff2525 0%, #ffe53b 74%);
   }
 
   .md\:hover\:bg-gradient-blue:hover {
     background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+    background-image: linear-gradient(19deg, #b721ff 0%, #21d4fd 100%);
   }
 
   .md\:hover\:bg-gradient-orange:hover {
     background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-  }
-
-  .md\:group:hover .group-hover\:bg-gradient-blue {
-    background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-  }
-
-  .md\:group:hover .group-hover\:bg-gradient-orange {
-    background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+    background-image: linear-gradient(147deg, #ff2525 0%, #ffe53b 74%);
   }
 }
 
@@ -16517,42 +16457,22 @@ button,
 
   .lg\:bg-gradient-blue {
     background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+    background-image: linear-gradient(19deg, #b721ff 0%, #21d4fd 100%);
   }
 
   .lg\:bg-gradient-orange {
     background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-  }
-
-  .lg\:focus\:bg-gradient-blue:focus {
-    background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-  }
-
-  .lg\:focus\:bg-gradient-orange:focus {
-    background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+    background-image: linear-gradient(147deg, #ff2525 0%, #ffe53b 74%);
   }
 
   .lg\:hover\:bg-gradient-blue:hover {
     background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+    background-image: linear-gradient(19deg, #b721ff 0%, #21d4fd 100%);
   }
 
   .lg\:hover\:bg-gradient-orange:hover {
     background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-  }
-
-  .lg\:group:hover .group-hover\:bg-gradient-blue {
-    background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-  }
-
-  .lg\:group:hover .group-hover\:bg-gradient-orange {
-    background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+    background-image: linear-gradient(147deg, #ff2525 0%, #ffe53b 74%);
   }
 }
 
@@ -20501,41 +20421,21 @@ button,
 
   .xl\:bg-gradient-blue {
     background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+    background-image: linear-gradient(19deg, #b721ff 0%, #21d4fd 100%);
   }
 
   .xl\:bg-gradient-orange {
     background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-  }
-
-  .xl\:focus\:bg-gradient-blue:focus {
-    background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-  }
-
-  .xl\:focus\:bg-gradient-orange:focus {
-    background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+    background-image: linear-gradient(147deg, #ff2525 0%, #ffe53b 74%);
   }
 
   .xl\:hover\:bg-gradient-blue:hover {
     background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+    background-image: linear-gradient(19deg, #b721ff 0%, #21d4fd 100%);
   }
 
   .xl\:hover\:bg-gradient-orange:hover {
     background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-  }
-
-  .xl\:group:hover .group-hover\:bg-gradient-blue {
-    background-color: #21d4fd;
-    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-  }
-
-  .xl\:group:hover .group-hover\:bg-gradient-orange {
-    background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+    background-image: linear-gradient(147deg, #ff2525 0%, #ffe53b 74%);
   }
 }
